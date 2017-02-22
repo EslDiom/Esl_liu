@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>网页计算器</title>
+	<link rel="stylesheet" href="web calculator-base.css" />
+</head>
+<body>
+	<div class="box">
+		<div >
+			<input type="text" id="reslut" value="0">
+			<div class="result_box">
+				<input type="button" class="btn1" value="清除" onclick="Clear()">
+				<input type="button" class="btn1" onclick="del()" value="退格">
+			</div>
+		</div>
+		<div class="funs">
+			<input type="button" value="sin" onclick="math('sin')">
+			<input type="button" value="cos" onclick="math('cos')">
+			<input type="button" value="tan" onclick="math('tan')">
+			<input type="button" value="asin" onclick="math('asin')">
+			<input type="button" value="acon" onclick="math('acon')">
+			<input type="button" value="atan" onclick="math('atan')">
+			<input type="button" value="PI" onclick="math('PI')">
+			<input type="button" value="1/x" onclick="math('1/x')">
+			<input type="button" value="exp" onclick="math('exp')">
+			<input type="button" value="lnx" onclick="math('lnx')">
+			<input type="button" value="lgx" onclick="math('lgx')">
+			<input type="button" value="n!" onclick="math('n!')">
+		</div>
+		<div class="number">
+			<input type="button" value="7" id="num_7" onclick="numIpu(7)">
+			<input type="button" value="8" id="num_8" onclick="numIpu(8)">
+			<input type="button" value="9" id="num_9" onclick="numIpu(9)">
+			<input type="button" value="4" id="num_4" onclick="numIpu(4)">
+			<input type="button" value="5" id="num_5" onclick="numIpu(5)">
+			<input type="button" value="6" id="num_6" onclick="numIpu(6)">
+			<input type="button" value="1" id="num_1" onclick="numIpu(1)">
+			<input type="button" value="2" id="num_2" onclick="numIpu(2)">
+			<input type="button" value="3" id="num_3" onclick="numIpu(3)">
+			<input type="button" value="0" id="num_0" onclick="numIpu(0)">
+			<input type="button" value="." id="num_D" onclick="decimal()">
+			<input type="button" value="=" id="num_E" onclick="calulate('=')">
+		</div>
+		<div class="symbol">
+			<input type="button" value="+" onclick="calulate('+')">
+			<input type="button" value="取整" onclick="calulate('inte')">
+			<input type="button" value="-"  onclick="calulate('-')">
+			<input type="button" value="取余" onclick="calulate('%')">
+			<input type="button" value="*" id="num_Mul" onclick="calulate('*')">
+			<input type="button" value="x^y" onclick="calulate('x^y')">
+			<input type="button" value="/" onclick="calulate('/')">
+			<input type="button" value="+/-"onclick="plusMinus()">
+		</div>
+	</div>
+	<script type="text/javascript" src="web calculator-base.js" ></script>
+</body>
+</html>

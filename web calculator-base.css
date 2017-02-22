@@ -1,0 +1,78 @@
+@charset "utf-8";
+body{
+		background: url(symbol2.jpg);
+	}
+		.box{
+			width: 580px;
+			height: 300px;
+			background: darkgray;
+			border: 4px outset orange;
+			position: absolute;
+			top: 100px;
+			left: 200px;
+		}
+		input{
+			width: 50px;
+			height: 30px;
+			border-radius: 7px;
+			outline: none;
+			box-shadow:inset 3px 3px 1px  darkgray;
+		}
+		#reslut{
+			width: 400px;
+			height: 40px;
+			margin: 15px 5px auto 5px;
+			font-size: 24px;
+			float: left;
+			text-align: right;
+			box-shadow:inset 5px 5px 2px  darkgray;
+		}
+		.result_box{
+			width: 140px;
+			height: 40px;
+			border: 2px solid #ccc;
+			float: right;
+			margin: 15px 5px auto 0px;
+			text-align: center;
+			line-height: 40px;
+		}
+		.btn1{
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+		.funs{
+			width: 200px;
+			height: 170px;
+			border: 2px solid #ccc;
+			position: absolute;
+			top: 100px;
+			margin: 10px;
+			clear: both;
+		}
+		.funs input{
+			margin: 6px;
+		}
+		.number{
+			width: 200px;
+			height: 170px;
+			border: 2px solid #ccc;
+			position: absolute;
+			left: 225px;
+			top: 110px;
+			clear: both;
+		}
+		.number input{
+			margin: 6px;
+		}
+		.symbol{
+			width: 130px;
+			height: 170px;
+			border: 2px solid #ccc;
+			position: absolute;
+			left: 440px;
+			top: 110px;
+			clear: both;
+		}
+		.symbol input{
+			margin: 6px;
+		}
